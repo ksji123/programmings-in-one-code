@@ -7,21 +7,22 @@ stands for cascading Style Sheet it is a language  that describes the style of a
 ## selectors in CSS
 * Element Selectors
 
-    p{
-        color: yellow;
-    }
+        p{
+            color: yellow;
+        }
 * Id selectors
 
-    #pawan{
-        color:blue;
-    }
+        #pawan{
+            color:blue;
+        }
 * Class selectors
 
-    .pawan{
-        color:pink;
-    }
+        .pawan{
+            color:pink;
+        }
 * Grouping Selection
 
-    h1,p,h2{
-        color: yellow;
-    }
+        h1,p,h2{
+            color: yellow;
+        }
+
