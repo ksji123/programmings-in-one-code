@@ -1,0 +1,31 @@
+#a{
+    height: 20%;
+    width: 100%;
+    color: pink;
+    background-color: black;
+}
+
+#b{
+    height: 30%;
+    width: 80%;
+    background-color: red;
+    color: rgb(120,130,0);
+}
+#c{
+    height: 30%;
+    width: 80%;
+    background-color: red;
+    color: rgba(120,130,0,.5);
+}
+#d{
+    height: 30%;
+    width: 80%;
+    background-color: red;
+    color: #2277FF;
+}
+#e{
+    height: 30%;
+    width: 80%;
+    background-color: red;
+    color: hsl(120,70%,50%);
+}
