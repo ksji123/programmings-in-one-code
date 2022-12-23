@@ -1,0 +1,43 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            var d, y;
+
+            d = +prompt("enter the value of month");
+            y = +prompt("enter the value of year");
+
+            switch(d)
+            {
+                case 1:
+                case 3:
+                case 5:
+                case 7:
+                case 8:
+                case 10:
+                case 12:
+                    document.write("31 days months name");
+                    break;
+                case 2:
+                    if(y%4==0){
+                        document.write("leap year of 29 days in feb");
+                    }
+                    else{
+                        document.write("28 days in feb");
+                    }
+                    break;
+                case 4:
+                case 9:
+                case 6:
+                case 11:
+                    document.write("30 days month");
+                    break;
+                default:
+                    document.write("wrong choice");
+                    break;
+            }
+        </script>
+    </body>
+</html>
